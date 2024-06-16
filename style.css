@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    background-image: url("images/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 15px;
+}
+
+nav img {
+    width: auto;
+    height: 50px;
+    transform: rotate(15deg);
+}
+
+nav ul {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    text-wrap: nowrap;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding: 8px 25px;
+}
+
+nav li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+nav input {
+    height: 30px;
+    width: 300px;
+    border: 1px #fff solid;
+    background-color: #000;
+    color: #fff;
+}
+
+button {
+    height: 34px;
+    border: 1px #fff solid;
+    margin-left: 6px;
+    padding: 0 12px;
+}
+
+nav button {
+    background-color: #000;
+    color: #fff;
+}
+
+nav button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px #fff solid;
+}
+
+/* ------------ */
+/* main section */
+/* ------------ */
+
+.main {
+    display: flex;
+    padding: 30px 0;
+    margin-right: 50px;
+}
+
+.vl {
+    border-left: 2px #fff solid;
+    height: 200px;
+    margin: 0 10px 120px 10px;
+}
+
+.main .left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 100px 0px 10px;
+}
+
+.main .left li {
+    margin-bottom: 15px;
+}
+
+.main .left img {
+    width: 24px;
+}
+
+.main .middle .heading {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100%;
+    width: 40%;
+    margin: 0;
+}
+
+.main .middle p {
+    font-size: 20px;
+}
+
+.main .middle .row {
+    margin-top: 80px;
+}
+
+.main .middle .details {
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.main .middle button {
+    background-color: transparent;
+    color: #fff;
+}
+
+.main .middle button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    gap: 15px;
+    width: 20%;
+    padding: 8px 40px 30px 10px;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#card-heading {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#card-info {
+    font-size: 14px;
+    height: 100px;
+}
+
+.card-btn {
+    margin: 0;
+}
+
+/* form */
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    /* text-align: center; */
+}
+
+h1 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.container input,
+.container textarea {
+    background-color: transparent;
+    color: #fff;
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px #fff solid;
+    font-size: 16px;
+}
+
+.container button {
+    width: calc(100% - 0px);
+    margin: 0;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+/* Search Result box */
+.search-result {
+    background-color: transparent;
+    color: #000;
+    position: relative;
+    margin-right: 5%;
+    /* display: none; */
+    z-index: 5;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.search-result > div {
+    background-color: #fff;
+}
+
+.search-result img {
+    width: 300px;
+}
+
+.search-result p {
+    width: 280px;
+}
+
+.search-result button {
+    margin-bottom: 20px;
+}
